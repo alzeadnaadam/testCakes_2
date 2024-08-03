@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "258431568634",
+    "project_id": "sweetshop-ced59",
+    "storage_bucket": "sweetshop-ced59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258431568634:android:c943651655b35390e1d743",
+        "android_client_info": {
+          "package_name": "com.example.testcakes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX4TaYNRQ570mCUcrs_-Kx1yFlsLAUu_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

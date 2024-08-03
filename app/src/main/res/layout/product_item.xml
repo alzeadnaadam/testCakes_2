@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="3dp"
+     android:background="@drawable/product_item_background"
+    android:elevation="55dp"
+    android:weightSum="20"
+     android:layout_marginTop="20dp"
+    android:layout_marginLeft="14dp"
+    android:layout_marginRight="14dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:layout_marginLeft="4dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/productNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ggggg"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/productPriceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20$"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="14"
+         android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/decreaseQuantityButton"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/quantityTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="1"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/increaseQuantityButton"
+                android:layout_width="40dp"
+                android:textColor="#FFFFFF"
+
+                android:layout_height="wrap_content"
+                android:text="+" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/addToCartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+             android:backgroundTint="@color/purple_500"
+            android:text="Add to Cart"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>
